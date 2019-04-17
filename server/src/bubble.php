@@ -15,7 +15,7 @@ define('USERNAME_MAXLEN', 6);
 define('CONTENT_MAXLEN', 500);
 
 //创建websocket服务器对象，监听127.0.0.1:9009端口
-$ws    = new swoole_websocket_server("127.0.0.1", 9009);
+$ws    = new swoole_websocket_server("127.0.0.1", 8000);
 
 //机器人类
 $robot = new Robot();
